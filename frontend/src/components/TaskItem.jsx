@@ -10,7 +10,7 @@ import axios from "axios";
 import { format, isToday } from "date-fns";
 import TaskModel from "./TaskModel";
 
-const API_BASE = "http://localhost:4000/api/tasks";
+const API_BASE = "https://codealpha-project-management-tool-backend.onrender.com/api/tasks";
 
 const TaskItem = ({
   task,

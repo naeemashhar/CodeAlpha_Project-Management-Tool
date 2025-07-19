@@ -25,7 +25,7 @@ import TaskItem from "../components/TaskItem";
 import TaskModel from "../components/TaskModel";
 import axios from "axios";
 
-const API_BASE = "http://localhost:4000/api/tasks";
+const API_BASE = "https://codealpha-project-management-tool-backend.onrender.com/api/tasks";
 
 const Dashboard = () => {
   const { tasks, refreshTasks } = useOutletContext();

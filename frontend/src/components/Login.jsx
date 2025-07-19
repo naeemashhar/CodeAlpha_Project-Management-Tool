@@ -14,7 +14,7 @@ const Login = ({ onSubmit, onSwitchMode }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const url = "http://localhost:4000";
+  const url = "https://codealpha-project-management-tool-backend.onrender.com";
 
   useEffect(() => {
     const token = localStorage.getItem("token");

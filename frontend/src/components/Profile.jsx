@@ -20,7 +20,7 @@ import {
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://codealpha-project-management-tool-backend.onrender.com";
 
 const Profile = ({ setCurrentUser, onLogout }) => {
   const [profile, setProfile] = useState({ name: "", email: "" });
